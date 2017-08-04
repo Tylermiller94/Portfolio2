@@ -33,4 +33,38 @@ li {
 p {
   text-align: center;
 }
+
+img.resize {
+  max-width:355px;
+  max-height:250px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+
+    border: 1px #ccc;
+    border-radius: 1px;
+    box-sizing: box;
+
+}
+input[type=submit] {
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.container {
+    border-radius: 3px;
+    background-color: #grey;
+    padding: 5px;
+}
+
+label {
+    display:block;
+    margin-top:2px;
+    letter-spacing:2px;
+}
 </style>
