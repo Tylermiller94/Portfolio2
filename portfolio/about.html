@@ -5,71 +5,67 @@
     <title>Portfolio-index</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   </head>
+
+
+
 <body>
   <div class="container">
+    <div class="row">
       <div class="jumbotron">
         <h1>About Me</h1>
-        <p>
-          Tyler Miller - Junior Developer in Training
-        </p>
+          <p>Tyler Miller - Junior Developer in Training</p>
       </div>
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="well">
-            <h2>Background</h2>
-            <ul><h4>My name is Tyler Miller, I am currently training to become a Junior developer at Epicodus Seattle. I currently attend Seattle Central College with a focus on computer science. when I was 18 I found myself in love with the architectual field, solving problems and building something from scratch became a passion of mine. I was also very into my computer science class early on in college as I found that I had the same passion in a more accesible and pleasing fashion. currently I  enjoy working with DAW's (digital audio workbench) creating music in my spare time. otherwise I enjoy building PC's for friends, family, and myself.
-            </h4>
-            </ul>
+    </div>
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="well">
+        <h2>Background</h2>
+        <p><h4>My name is Tyler Miller, I am currently training to become a Junior developer at Epicodus Seattle. I currently attend Seattle Central College with a focus on computer science. when I was 18 I found myself in love with the architectual field, solving problems and building something from scratch became a passion of mine. I was also very into my computer science class early on in college as I found that I had the same passion in a more accesible and pleasing fashion. currently I  enjoy working with DAW's (digital audio workbench) creating music in my spare time. otherwise I enjoy building PC's for friends, family, and myself.</h4></p>
+      </div>
+    </div>
+      <div class="container"
+        <div class="row"
+          <div class="col-md-4">
+            <img src="images/typing.jpeg" alt="someone typing" width="370px" height="260px">
           </div>
         </div>
-        <div class="col-md-4">
-          <img class="resize" src="images/typing.jpeg" alt="someone typing" width="450px" height="270px">
-        </div>
-
       </div>
-
-
+    </div>
       <div class="container">
-        <div class="col-lg-12">
-<p>contact me</p>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>contact me</p>
+          </div>
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name...">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name...">
 
-  <form action="/action_page.php">
+              <label for="subject">Email</label>
+              <textarea id="subject" name="email" placeholder="leave your email here..." style="height:50px"></textarea>
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+              <input type="submit" value="Submit">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-
-
-  
-
-    <label for="subject">Email</label>
-    <textarea id="subject" name="email" placeholder="leave your email here..." style="height:50px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
+            </form>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h2 class="panel-title">Guide</h2>
+                </div>
+                <div class="panel-body"
+                <ul>
+                  <p><h3><a href="index.html" style="color: black">Home</a><h3></p>
+                  <p><h3><a href="projects.html" style="color: black">My Projects</a></h3></p>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-</div>
-
-
-
-    <div class="panel panel-info">
-      <div class="panel-heading">
-        <h2 class="panel-title">Guide</h2>
-      </div>
-      <div class="panel-body"
-        <ul>
-          <ul><h3><a href="about.html" style="color: black">About Me</a><h3></ul>
-          <ul><h3><a href="projects.html" style="color: black">My Projects</a></h3></ul>
-
-      </blockquote>
-      </ul>
-    </div>
-    </div>
-
-
-
     </body>
 </html>
