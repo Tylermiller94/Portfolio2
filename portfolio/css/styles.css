@@ -2,4 +2,35 @@
 .bgimg {
     background-image: url('../images/typing.jpeg');
 }
+h1 {
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  font-style: italic;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+h4 {
+  font-style: italic;
+  text-align: center;
+}
+ul {
+  font-style: sans-serif
+  text-align: center;
+  color: black
+}
+li {
+  font-style: sans-serif
+  color: black
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
 </style>

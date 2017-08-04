@@ -1,4 +1,4 @@
-/*!
+*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -83,7 +83,7 @@ sup {
 sub {
   bottom: -.25em;
 }
-img { src: url(http://yobeetech.com/wp-content/uploads/2017/03/Image-Preview_Programmer-Working-On-Laptop-At-Night.jpg);
+img {
   border: 0;
 }
 svg:not(:root) {
